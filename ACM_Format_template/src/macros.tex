@@ -1,0 +1,153 @@
+
+%------------------------------------------------------------------------------------------------
+%																	Macros.tex
+%------------------------------------------------------------------------------------------------
+%********************************************************************************************
+% @ Author												 : 			Jeremy Crowley, Yegeta Zeleke, 								  
+%																					Berk Alt{\i}n and Ricardo G Sanfelice                                   	        
+% @file_name										    : 		 macros.tex														   
+% @ Date  		 										   : 	   10/17/18                                                     
+% @ Discription										    : 		This file defines all packages, symbols and 
+%																							styles that will be used   			
+% @ Doccument Discription			  		:       This document is used to specify the Authors Name         
+% @ Usage												 :        None    																						  
+%@Revision												 :  	10/17/18                                                                                      
+%********************************************************************************************
+
+
+
+
+
+\documentclass[sigconf]{acmart}
+
+
+\geometry{letterpaper}
+% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+\usepackage{graphicx}	
+% TeX will automatically convert eps --> pdf in pdflatex
+\usepackage[english]{babel}										
+\usepackage{amssymb}
+\usepackage{lipsum}
+\usepackage{mathrsfs}
+\usepackage{mathtools}
+\usepackage{amsthm}
+\theoremstyle{definition}
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{conj}[thm]{Conjecture}
+\newtheorem{mydef}[thm]{Definition}
+\usepackage[utf8]{inputenc}
+\usepackage{caption}
+\usepackage{etoolbox}
+\usepackage{soul,xcolor}
+\usepackage{rotating}
+
+\usepackage{array,booktabs,arydshln,xcolor}
+\usepackage{array}
+\newcolumntype{L}{>{\centering\arraybackslash}m{2.1cm}}
+\newcolumntype{V}{>{\centering\arraybackslash}m{1.6cm}}
+\newcommand\VRule[1][\arrayrulewidth]{\vrule width #1}
+
+
+\newtheorem{problem}{Problem}[section]
+\newtheorem{remark}{Remark}[section]
+\newtheorem{definition}{Definition}[section]
+\newtheorem{example}[thm]{Example}
+
+\newcommand\floor[1]{\lfloor#1\rfloor}
+\newcommand\ceil[1]{\lceil#1\rceil}
+%add package for some math symbols
+\usepackage{amsmath}    
+% for blackboard bold, etc          % better theorem environments
+\usepackage{amsfonts}              
+\usepackage{mathrsfs}
+\usepackage{indentfirst}
+
+\usepackage{algpseudocode}
+\usepackage{breqn}
+
+%%%%this was messing up author list
+%\usepackage{authblk}
+
+%\graphicspath{{/Documents/HybridResearch/ICRA/}}
+\usepackage{subcaption}
+
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\arginf}{arg\,inf}
+\DeclareMathOperator{\sgn}{sgn}
+
+\newcommand{\Zeta}{\mathrm{Z}}
+\newcommand{\calA}{\mathcal{A}}
+\newcommand{\calH}{\mathcal{H}}
+\newcommand{\calS}{\mathcal{S}}
+\newcommand{\calJ}{\mathcal{J}}
+\newcommand{\calX}{\mathcal{X}}
+\newcommand{\calU}{\mathcal{U}}
+
+\newcommand{\pset}{\mathcal{P}}
+\newcommand{\psetgeq}{\mathcal{P}_{\geq 1}}
+\newcommand{\poly}[2]{\mathbb{P}^{#1}_{#2}}
+
+\usepackage[linesnumbered,ruled]{algorithm2e}
+\usepackage{setspace}
+
+\setstretch{0.94} % for custom spacing
+
+\let\labelindent\relax
+\usepackage{enumitem}
+
+
+
+
+
+\usepackage{booktabs} % For formal tables
+%
+\usepackage{graphics} % for pdf, bitmapped graphics files
+\usepackage{epsfig} % for postscript graphics files
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{wasysym}
+\usepackage[all]{xy}
+%\usepackage[title]{appendix}
+\usepackage{setspace}
+
+\usepackage{color}
+%\usepackage{cite}
+\usepackage{hyperref}
+%\usepackage{amsfonts}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\newtheorem{lemma}[definition]{Lemma}
+%\newtheorem{remark}[definition]{Remark}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{assumption}[theorem]{Assumption}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\reals}{\mathbb{R}}
+\newcommand{\dom}{\textrm{dom }}
+\newcommand{\rge}{\textrm{rge }}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\definecolor{darkgreen}{rgb}{0,0.5,0}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%          																Copyright and ISBN info
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Copyright
+\setcopyright{none}
+
+
+% DOI
+\acmDOI{}
+
+% ISBN
+\acmISBN{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%          																	Conference Venue
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\acmConference[HSCC'19]{ACM HSCC}{April 2019}{Montreal, Canada}
