@@ -1,0 +1,1 @@
+Put your images here, ideally both your source and final cropped/trimmed/edited version as well. Put them under folder corresponding to their chapter if you have many to make finding them easier.

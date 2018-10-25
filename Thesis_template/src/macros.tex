@@ -1,0 +1,36 @@
+\documentclass[12pt]{ucthesis}
+
+% This needs to be added before hyperref
+\usepackage[papersize={8.5in,11in},inner=1.5in,outer=1.25in,top=1.25in,bottom=1.25in]{geometry}
+
+\usepackage{fixltx2e}
+\usepackage{url}
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage{color}
+\usepackage{xspace}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{psfrag}
+\usepackage{pbox}
+\usepackage{epstopdf}
+\usepackage{textcomp} % For copyright symbol
+\DeclareGraphicsExtensions{.pdf,.eps,.png,.jpg}
+\usepackage[font=singlespacing]{subcaption}
+\captionsetup[table]{labelfont=bf,font=singlespacing}
+\captionsetup[figure]{labelfont=bf,font=singlespacing}
+\captionsetup[subfigure]{labelfont=bf,font=singlespacing}
+\usepackage[titletoc,title]{appendix}
+\usepackage{tabularx}
+\usepackage{rotating}
+\usepackage{hyperref} % Turns all internal references into links to pages within the document
+
+\usepackage{lmodern} % Use the Latin Modern font
+\usepackage[T1]{fontenc} % Use a modern font encoding
+
+\makeatletter % Hack to get setspace working properly
+\let\@currsize\normalsize
+\makeatother
+\usepackage{setspace}% http://ctan.org/pkg/setspace
+
+% Set default spacing to double (yes, it should be 1.6 here...)
+\linespread{1.6}

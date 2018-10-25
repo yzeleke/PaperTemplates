@@ -1,0 +1,33 @@
+%------------------------------------------------------------------------------------------------
+% Credit: This template uses a template given by Brayan Mars as a framework
+%------------------------------------------------------------------------------------------------
+
+%------------------------------------------------------------------------------------------------
+%																	Main.tex
+%------------------------------------------------------------------------------------------------
+%********************************************************************************************
+% @ Author												 : 		Yegeta Zeleke                                            	        
+% @file_name										    : 		 main.tex														   
+% @ Date  		 										   : 	   10/17/18                                                     
+% @ Discription										    : 		Template for ACM conference formats          			
+% @ Doccument Discription			  		 :       This document is the main file for compling  			
+%																				multiple tex files to produce pdf document         
+% @ Usage												 :        None    																						  
+%@Revision												 :  	10/17/18                                                                                      
+%********************************************************************************************
+
+\title{A Motion Planning Problem for Hybrid Systems with Applications}
+\author{Yegeta Zeleke}
+\degreeyear{2018}
+\degreemonth{December}
+\degree{DOCTOR OF PHILOSOPHY}
+\chair{Ricardo G. Sanfelice}
+\committeememberone{Abhishek Halder}
+\committeemembertwo{Mohamed A. Maghenem}
+%\committeememberthree{Professor 4} % Uncomment if you have 4 committee members. Also change the next line to `\numberofmembers{4}`
+\numberofmembers{3}
+\deanlineone{Tyrus Miller}
+\deanlinetwo{Vice Provost and Dean of Graduate Studies}
+\deanlinethree{}
+\field{Computer Engineering}
+\campus{Santa Cruz}
