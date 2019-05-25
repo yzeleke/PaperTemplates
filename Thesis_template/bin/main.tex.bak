@@ -10,7 +10,7 @@
 % @ Author												 : 		Yegeta Zeleke                                            	        
 % @file_name										    : 		 main.tex														   
 % @ Date  		 										   : 	   10/17/18                                                     
-% @ Discription										    : 		Template for ACM conference formats          			
+% @ Discription										    : 		Template for UCSC Thesis submission        			
 % @ Doccument Discription			  		 :       This document is the main file for compling  			
 %																				multiple tex files to produce pdf document         
 % @ Usage												 :        None    																						  
@@ -23,7 +23,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %          																	Macros
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{src/macros.tex}
+\input{../src/macros.tex}
 
 \begin{document}
 
@@ -31,7 +31,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %          																	Paper Title
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{src/Title.tex}
+\input{../src/Title.tex}
 
 
 
@@ -39,14 +39,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %          																	Abstract
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{src/abstract.tex}
+\input{../src/abstract.tex}
 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %          																	dedication
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{src/dedication.tex}
+\input{../src/dedication.tex}
 
 
 
@@ -55,20 +55,20 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %          																	Introduction
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{src/introduction}
+\input{../src/introduction}
 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %          																	Results
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{src/results}
+\input{../src/results}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %          																	conclusion
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{src/conclusion}
+\input{../src/conclusion}
 
 % \appendix % Uncomment if you have appendices. Add them below this exactly as you would a regular chapter.
 
@@ -80,7 +80,7 @@
 \nocite{*}
 \bibliographystyle{plain}
 \singlespacing
-\bibliography{src/dissertation}
+\bibliography{../src/dissertation}
 \doublespacing
 
 \end{document}
